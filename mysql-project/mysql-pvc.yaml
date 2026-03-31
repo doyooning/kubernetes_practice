@@ -7,7 +7,6 @@ metadata:
 
 # PersistentVolumeClaim 세부 정보
 spec:
-  storageClassName: my-storage # PV와 PVC의 storageClassName이 같다면 볼륨이 연결된다.
   accessModes:
     - ReadWriteOnce # 볼륨에 접근할 때의 권한
   resources: # PVC가 PV에 요청하는 리소스의 양을 정의

@@ -7,7 +7,7 @@ metadata:
 
 # PersistentVolume 세부 정보
 spec:
-  storageClassName: my-storage # PV와 PVC의 storageClassName이 같다면 볼륨이 연결된다.
+#  storageClassName: my-storage # PV와 PVC의 storageClassName이 같다면 볼륨이 연결된다.
   capacity:
     storage: 1Gi # 볼륨이 사용할 용량을 설정
   accessModes:
